@@ -8,6 +8,7 @@ import com.mixpanel.mixpanelapi.MixpanelAPI;
 import org.json.JSONObject;
 import com.amplitude.api.Amplitude;
 public class AnalyticsService {
+    
     // Assuming these are your API keys, store them in environment variables or a config file
     private static final String MIXPANEL_API_KEY = "YOUR_MIXPANEL_API_KEY";
     private static final String SEGMENT_WRITE_KEY = "YOUR_SEGMENT_WRITE_KEY";
