@@ -152,7 +152,7 @@ public class AuthenticationService {
 	}
 
 	public void sendEvent(String id, String event, String eventData) {
-		String baseURL = "https://localhost/analytics";
+		String baseURL = "https://semrush.com/analytics";
 
 		try {
 			String payload = objectMapper.writeValueAsString(eventData);
