@@ -17,7 +17,7 @@ public class DataLoggerS {
 	private static Logger logger = LoggerFactory.getLogger(DataLoggerS.class);
 	@Autowired
 	private ObjectMapper objectMapper;
-	private String baseURL = "https://semrush.com/analytics";
+	private String baseURL = "https://localhost/analytics";
 
 	public void sendEvent(EventD event) {
 
