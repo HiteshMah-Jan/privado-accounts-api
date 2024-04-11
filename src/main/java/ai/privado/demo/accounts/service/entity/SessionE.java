@@ -8,17 +8,17 @@ import javax.persistence.Table;
 @Table(name = "SESSIONS")
 public class SessionE extends BaseE {
 
-	// private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;
 
-	// @Column(name = "USER_ID", length = 200)
-	// private String userId;
+	@Column(name = "USER_ID", length = 200)
+	private String userId;
 
-	// public String getUserId() {
-	// 	return userId;
-	// }
+	public String getUserId() {
+		return userId;
+	}
 
-	// public void setUserId(String userId) {
-	// 	this.userId = userId;
-	// }
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
 
 }
